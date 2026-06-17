@@ -5,35 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LensCraft DE Datenschutzerklaerung</title>
   <style>
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #1f2937; background: #fafafa; line-height: 1.6; }
-    main { max-width: 760px; margin: 0 auto; padding: 40px 20px; }
-    h1 { font-size: 2rem; margin: 0 0 8px; }
-    section { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 20px; margin: 16px 0; }
-    ul { padding-left: 1.2rem; }
-    footer { color: #6b7280; font-size: .95rem; margin-top: 28px; }
-    a { color: #2563eb; }
+    :root {
+      color-scheme: light;
+      --ink: #202124;
+      --muted: #667085;
+      --line: #dde3ea;
+      --paper: #fbfcfd;
+      --accent: #2457a6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: var(--ink);
+      background: var(--paper);
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 36px 0 10px;
+      font-size: 1.15rem;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 16px; }
+    ul {
+      margin: 0 0 18px;
+      padding-left: 22px;
+    }
+    .lede {
+      color: var(--muted);
+      font-size: 1.05rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
   <main>
     <h1>LensCraft DE Datenschutzerklaerung</h1>
-    <p>Zuletzt aktualisiert: 2026-06-17</p>
-    <section>
-      <h2>Datenerfassung</h2>
-      <p>LensCraft DE ist eine lokale Offline-App. Inhalte und Einstellungen werden auf dem Geraet der Nutzerin oder des Nutzers gespeichert.</p>
-      <ul>
-        <li>Keine Erfassung personenbezogener Daten.</li>
-        <li>Kein Tracking.</li>
-        <li>Keine Analyse- oder Werbe-SDKs von Drittanbietern.</li>
-        <li>Kein Benutzerkonto und keine Cloud-Synchronisierung.</li>
-        <li>Keine Abonnements, In-App-Kaeufe oder Zahlungsabwicklung.</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Kontakt</h2>
-      <p><a href="mailto:support@ethanqifeng.com">support@ethanqifeng.com</a></p>
-    </section>
-    <footer>LensCraft DE ist eine unabhaengige lokale App.</footer>
+    <p class="lede">Zuletzt aktualisiert: 17. Juni 2026</p>
+
+    <p>LensCraft DE erhebt keine personenbezogenen Daten.</p>
+
+    <p>Alle Vorlagen, Notizen, Einstellungen und exportierten Ergebnisse, die Sie in der App erstellen, werden lokal auf Ihrem Geraet verarbeitet. Die App nutzt kein Benutzerkonto, keine Cloud-Synchronisierung, keine Werbung, keine Analytics, kein Tracking und keine SDKs von Drittanbietern.</p>
+
+    <h2>Lokale Daten</h2>
+    <p>Ihre Inhalte bleiben auf Ihrem Geraet, sofern Sie sie nicht selbst ausserhalb der App teilen, zum Beispiel ueber eine von iOS bereitgestellte Teilen- oder Exportfunktion.</p>
+
+    <h2>Fotos und Berechtigungen</h2>
+    <p>Wenn Sie Bilder aus Kamera oder Fotomediathek verwenden, fragt iOS nach der entsprechenden Berechtigung. Diese Berechtigung wird nur genutzt, um die von Ihnen ausgewaehlten Bilder lokal in LensCraft DE zu verarbeiten.</p>
+
+    <h2>Keine Zahlungen oder Abonnements</h2>
+    <p>LensCraft DE enthaelt keine In-App-Kaeufe, keine Abonnements und keine Zahlungsabwicklung innerhalb der App.</p>
+
+    <h2>Kontakt</h2>
+    <p>Fragen zum Datenschutz koennen Sie an <a href="mailto:support@ethanqifeng.com">support@ethanqifeng.com</a> senden.</p>
+
+    <footer>LensCraft DE - Datenschutzerklaerung</footer>
   </main>
 </body>
 </html>
